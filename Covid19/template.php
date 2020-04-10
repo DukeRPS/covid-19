@@ -21,7 +21,7 @@
                     <li><a href="self-test.php">Self-Test</a></li>
                     <li><a href="help.php">Help</a></li>
                     <!--<li><a href=#>Management</a></li>-->
-                    <li><a href=#>About</a></li>
+                    <li><a href="about.php">About</a></li>
                     
                 </ul>
             </nav>
@@ -44,8 +44,9 @@
 
             function myLoader(){
             preloader.style.display = 'none';     
-            }
-        </script>
+            };
+            
+            </script>
     </body>
 </html>
 <?php

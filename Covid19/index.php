@@ -35,7 +35,7 @@ findings.  </h5>
 <h3>Can the virus that causes COVID-19 be transmitted through the air?</h3><br>
 <h5>Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through
 contact with respiratory droplets rather than through the air.</h5>
-<h3>Can CoVID-19 be caught from a person who has no symptoms?</h3><br>
+<h3>Can COVID-19 be caught from a person who has no symptoms?</h3><br>
 <h5>The main way the disease spreads is through respiratory droplets expelled by someone who is coughing.
 The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with
 COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease.
@@ -89,39 +89,6 @@ Why? You have a higher chance of catching COVID-19 in one of these areas.</li>
 
 ";
 $footer="<p>Stay Home, Stay Safe</p>";
-$sidebar='<h1 class="sbheading">Cases of India</h1>
-                <table class="sbtable">
-                    <tr>
-                        <th>Active Cases</th>
-                        <td>'.$confirm.'</td> 
-                    </tr>
-                    <tr>
-                        <th>Cured/Discharged</th>
-                        <td>'.$recover.'</td>
-                    </tr>
-                    <tr>
-                        <th>Deaths</th>
-                        <td>'.$death.'</td>
-                    </tr>
-                </table>
-                <h2 class="sbheading">All Cases of the World</h2>
-                <table class="sbtable">
-                    <tr>
-                        <th>Active Cases</th>
-                        <td>'.$total_confirmed.'</td> 
-                    </tr>
-                    <tr>
-                        <th>Cured/Discharged</th>
-                        <td>'.$total_recovered.'</td>
-                    </tr>
-                    <tr>
-                        <th>Deaths</th>
-                        <td>'.$total_deaths.'</td>
-                    </tr>
-                </table>
-                <h9>Last updated on '.$date.'</h9>
-                <h5>For more  
-                    <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" 
-                       target="_blank">Visit</a></h5>';
+$sidebar=$data;
 $sidebar1="";
 include 'template.php';
