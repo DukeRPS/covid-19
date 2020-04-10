@@ -1,2 +1,2 @@
 # covid-19
-E-Yantra
+e-Yantra Hackathon 2020 - Help to feed - Demonstration
